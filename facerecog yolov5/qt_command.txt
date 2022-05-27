@@ -1,0 +1,8 @@
+qt designer run command
+
+1.แปลง .ui to .py (cd to file folder)
+pyuic5 -x ชื่อไฟล์.ui -o ชื่อไฟล์ที่ต้องการ.py
+(pyuic5 -x mainwindow.ui -o mainwindow.py)
+
+2.แปลง .qrc to .py(cd to file folder)
+pyrcc5 ชื่อไฟล์.qrc -o ชื่อไฟล์ที่ต้องการ.py
